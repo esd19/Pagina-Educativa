@@ -1,0 +1,48 @@
+body {
+    background-color: #f0f7ff; /* Azul bajito */
+    margin: 0; /* Eliminar el margen predeterminado */
+    padding: 0; /* Eliminar el relleno predeterminado */
+    font-family: Arial, sans-serif; /* Establecer una fuente predeterminada */
+}
+
+header {
+    background-color: #a9d7e2; /* Gris */
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px; /* Agregar un margen inferior entre secciones */
+}
+
+footer {
+    background-color: #383636;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+nav {
+    text-align: right;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px; /* Ajusta el espaciado entre los elementos de la lista */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333; /* Cambia el color del texto de los enlaces si lo deseas */
+}
