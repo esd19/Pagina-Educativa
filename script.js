@@ -1,0 +1,1 @@
+alert("Bienvenido al foro de dudas")

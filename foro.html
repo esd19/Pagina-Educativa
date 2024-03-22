@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foro - Tu Sitio Educativo</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        #nueva-publicacion {
+            text-align: center;
+            
+        }
+        #mensaje {
+            width: 50%;
+            height: 100px; 
+            margin: 0 auto; 
+            display: block;
+            border-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Foro - Tu Sitio Educativo</h1>
+        <nav>
+            <ul>
+                <li><a href="#articulos">Artículos Semanales</a></li>
+                <li><a href="#ejercicios">Ejercicios Interactivos</a></li>
+                <li><a href="#recursos">Recursos</a></li>
+                <li><a href="/pagina.html">Inicio</a> </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="nueva-publicacion">
+            <h2>Nueva Publicación</h2>
+            <form id="publicacion-form">
+                <label for="titulo">Título:</label><br>
+                <input type="text" id="titulo" name="titulo"><br>
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea><br>
+                <button type="submit">Publicar</button>
+            </form>
+        </section>
+        <section id="publicaciones">
+            <h2>Publicaciones</h2>
+            
+            <div class="publicacion">
+                <h3>Título de la Publicación</h3>
+                <p>Contenido de la publicación...</p>
+                <p>Publicado por: Nombre del Estudiante</p>
+                <hr>
+            </div>
+            <!-- Puedes repetir esta estructura para mostrar más publicaciones -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Tu Sitio Educativo</p>
+    </footer>
+    <script src="script.js"></script> 
+</body>
+</html>
