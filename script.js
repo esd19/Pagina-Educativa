@@ -33,7 +33,7 @@ const capital5 = document.getElementById('capUSA');
 function verificarCapitales() {
     const mexicoCorrecto = "mexico";
     const españaCorrecto = "madrid";
-    const colombiaCorrecto = "medellin";
+    const colombiaCorrecto = "bogota";
     const franciaCorrecto = "paris";
     const usaCorrecto = "washington";
 
